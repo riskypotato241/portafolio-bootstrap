@@ -1,0 +1,40 @@
+#logo, #logointi {
+    width: 140px;
+    
+}
+
+img {
+    width: 40px;
+
+}
+
+.btn {
+    border-width: medium;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacto {
+    margin-right: 0.5em;
+
+}
+
+/* celular */ 
+@media (max-width:575px){
+    .container {
+        flex-direction: column; 
+    }
+    .contacto {
+        display: flex;
+        flex-direction:column; 
+        align-items:center;
+    }
+    .contacto img{
+        margin: 0.15em;
+    }
+}

@@ -1,0 +1,15 @@
+.row {
+    background: gray;
+
+}
+
+footer {
+    box-shadow: 2px 2px 15px cyan;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+
+}

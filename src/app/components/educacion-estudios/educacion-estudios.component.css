@@ -1,0 +1,12 @@
+div {
+    background: bisque;
+}
+
+h1, h3 {
+    display: inline;
+}
+
+.row {
+    padding: 25px;
+
+}
